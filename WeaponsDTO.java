@@ -1,6 +1,9 @@
-class Weapons{
+public class WeaponsDTO{
 
-
+	public WeaponsDTO(){
+		
+	}
+	
 	private String name;
 	private int manufacturedIn;
 	private int range;

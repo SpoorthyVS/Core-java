@@ -1,10 +1,14 @@
-class Games {
+public class GamesDTO {
 
+	public GamesDTO(){
+		
+		
+	}
 
-private String name;
-private String gameType;
-private int noOfPlayers;
-private String matchDuration;
+	private String name;
+	private String gameType;
+	private int noOfPlayers;
+	private String matchDuration;
 
 
 	

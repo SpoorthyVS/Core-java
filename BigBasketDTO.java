@@ -1,11 +1,15 @@
-class BigBasket{
+public class BigBasketDTO{
+	
+	
+	public  BigBasketDTO(){
+		
+		
+	}
 
-
- private String companyName;
-private String type;
-
-private String foundedIn;
-private String headquarterIn;
+	private String companyName;
+	private String type;
+	private String foundedIn;
+	private String headquarterIn;
 
 
 		public String getcompanyName(){

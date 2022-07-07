@@ -1,5 +1,8 @@
-class Ipl{
-
+public class IplDTO{
+	
+	public IplDTO(){
+		
+	}
 
     private String nameOfSponser ;
 	private int noOfTeams;
@@ -9,36 +12,36 @@ class Ipl{
 	
 	
 	
-	public String getnameOfSponser(){
+	public String getNameOfSponser(){
 	return nameOfSponser;
 	}
 	
-	public void  setnameOfSponser(String nameOfSponser){
+	public void  setNameOfSponser(String nameOfSponser){
 		this.nameOfSponser = nameOfSponser;
 	}
 
-	public int getnoOfTeams(){
+	public int getNoOfTeams(){
 	return noOfTeams;
 	}
 
-	public void setnoOfTeams(int noOfTeams){
+	public void setNoOfTeams(int noOfTeams){
 	this.noOfTeams = noOfTeams;
 	
 	}
 
-	public int getnoOfumpires(){
+	public int getNoOfUmpires(){
 	return noOfUmpires;
 	}
 	
-	public void setnoOfUmpires(int noOfUmpires){
+	public void setNoOfUmpires(int noOfUmpires){
 	this.noOfUmpires = noOfUmpires;
 	}
 
-	public String getmediaRights(){
+	public String getMediaRights(){
 	return mediaRights;
 	}
 
-	public void setmediaRights(String mediaRights){
+	public void setMediaRights(String mediaRights){
 	this.mediaRights = mediaRights; 	
 	}
 

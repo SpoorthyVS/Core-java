@@ -1,5 +1,9 @@
-class Airport{
+public class AirportDTO{
 
+	public AirportDTO(){
+		
+		
+	}
 	private String name;
 	private int id;
 	private String type;

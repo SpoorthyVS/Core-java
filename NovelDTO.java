@@ -1,9 +1,11 @@
-class NewsPaper{
+public class NovelDTO{
 
-
+	public NovelDTO(){
+		
+	}
 	private String name;
-	private boolean today;
-	private int date;
+	private double edition;
+	private int papers;
 	private int price;
 	private double review;
 	
@@ -16,19 +18,19 @@ class NewsPaper{
 	}
 	
 	
-	public boolean getToday(){
-		return today;
+	public double getEdition(){
+		return edition;
 	}
-	public void setToday(boolean today){
-		this.today=today;
+	public void setEdition(double edition){
+		this.edition=edition;
 	}
 	
 	
-	public int getDate(){
-		return date;
+	public int getPapers(){
+		return papers;
 	}
-	public void setDate(int date){
-		this.date=date;
+	public void setPapers(int papers){
+		this.papers=papers;
 	}
 	
 	
@@ -47,7 +49,11 @@ class NewsPaper{
 		this.review=review;
 	}
 	
-	public static void knowledge(){
-		System.out.println("Newspaper givves daily based informations");
+	public static void toRead(){
+		System.out.println("This is a very good novel book");
 	}
+
+
+
+
 }

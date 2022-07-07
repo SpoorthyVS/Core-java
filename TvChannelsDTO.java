@@ -1,10 +1,14 @@
-class TvChannels{
-
-		private String dishName;
-
-		private String channelName;
-		private int channelNo;
-		private String programName;
+public class TvChannelsDTO{
+	
+	public TvChannelsDTO(){
+		
+	}
+	
+	private String dishName;
+	private String channelName;
+	private int channelNo;
+	private String programName;
+	
 
 		public String getdishName(){
 	return dishName;

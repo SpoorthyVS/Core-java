@@ -1,10 +1,13 @@
-class Orthopedics{
+public class OrthopedicsDTO{
+	
+	public OrthopedicsDTO(){
+		
+	}
 
-
-private String name;
-private String address;
-private long contactNo;
-private String specializedIn;
+	private String name;
+	private String address;
+	private long contactNo;
+	private String specializedIn;
 
 
 

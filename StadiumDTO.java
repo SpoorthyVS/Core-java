@@ -1,5 +1,8 @@
-class Stadium{
-
+public class StadiumDTO{
+	
+	public StadiumDTO(){
+		
+	}
 	private String name;
 	private String address;
 	private int seatNo;

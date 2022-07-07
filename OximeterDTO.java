@@ -1,5 +1,8 @@
-class Oximeter{
+public class OximeterDTO{
 
+	public OximeterDTO(){
+		
+	}
 
 	private String name;
 	private int price;
